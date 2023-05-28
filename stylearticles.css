@@ -84,9 +84,9 @@ main p {
 
 .wrapper {
     position: relative;
-    bottom: -30px;
+    bottom: -100px;
     backdrop-filter: blur(100px);
-    height: 500px;
+    height: auto;
     width: 1300px;
     border-radius: 30px;
     display: flex;
@@ -98,6 +98,7 @@ main p {
 .wrapper p {
     position: relative;
     line-height: 2;
+    text-align: center;
 }
 
 
